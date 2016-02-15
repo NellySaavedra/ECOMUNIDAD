@@ -1,3 +1,4 @@
+/*Arreglo de Header*/
 .ImgHeader {
 	width: 70%;
 }
@@ -60,7 +61,6 @@ hr {
 .ImgPanel2 {
 	width: 100%;
 	height: 399px;
-
 }
 .TextPanelDer {
 	width: 50%;
@@ -69,7 +69,6 @@ hr {
 	padding-top: 12%;
 	margin-left: 580px;
 	text-align: center;
-
 }
 .TextPanelDer h3 {
 	margin-top: 30px;
@@ -104,7 +103,6 @@ hr {
 .PPCImg {
 	width: 100%;
 	height: 300px;
-	margin-bottom: 50px;
 }
 .PPT {
 	text-align: center;
@@ -122,6 +120,7 @@ hr {
 	margin-bottom: 30px;
 }
 .NEgreen {
+	margin-top: 150px;
 	color: #2C4A2C;
 }
 .IcoCont {
@@ -133,6 +132,7 @@ hr {
 .MarginIcoCont {
 	text-align: center;
 }
+/*Arreglo de Blog*/
 .ImgBlog {
 	width: 80%;
 }
@@ -142,11 +142,47 @@ hr {
 .MarginBlog {
 	margin-top: 50px;
 }
+.MargenCol-4 {
+	text-align: center;
+}
+.FinalBlog {
+	margin-bottom: 50px;
+}
+.Slider {
+	position: absolute;
+	margin-top: 190px;	
+}
+.S1 {
+	margin-left: 80px;
+}
+.S2 {
+	margin-left: 90%;
+}
+/*Arreglo de Tabla Redes sociales*/
+table{
+	border: 2px solid gray;
+    border-collapse: collapse;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+td {
+	width: 25%;
+	padding: 20px;
+	border-right: 2px solid gray;
+}
+.imgTable {
+	width: 50px;
+	height: 50px;
+	margin-top: 90px;
+	float: right;
+}
 footer {
 	background-color:;
 	width: 100%
 	height: 100px;
-	margin-top: 1300px;
+	margin-top: 1450px;
+	padding-bottom: 30px;
 }
 .FontOrange {
 	color: orange;
@@ -156,19 +192,4 @@ footer {
 }
 .FootDer {
 	text-align: right;
-}
-.Contacto {
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding-top: 30px;
-	padding-left: 30px;
-	padding-bottom: 30px;
-	display: inline-block;
-	width: 220px;
-	height: 200px;
-	border: 1px solid black;
-}
-.SLN {
-	border-left: 0px;
-	margin-left: 0px;
 }
