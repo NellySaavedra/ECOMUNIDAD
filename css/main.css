@@ -6,6 +6,10 @@
 	float: right;
 	margin-top: 40px;
 }
+.MenuFooter a:hover{
+	background-color: green;
+	color: white;
+}
 li {
 	display: inline-block;
 }
